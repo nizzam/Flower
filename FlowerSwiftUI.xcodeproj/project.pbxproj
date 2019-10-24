@@ -3,18 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A07D4E3235FD81800750817 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A07D4E2235FD81800750817 /* CategoryRow.swift */; };
+		9A07D4E5235FE56F00750817 /* FlowerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A07D4E4235FE56F00750817 /* FlowerItem.swift */; };
+		9A07D4E7235FE7D100750817 /* FlowerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A07D4E6235FE7D100750817 /* FlowerDetailView.swift */; };
+		9A07D4EA235FF3C400750817 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A07D4E9235FF3C400750817 /* Helper.swift */; };
+		9A07D4EC23602CE000750817 /* FlowerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A07D4EB23602CE000750817 /* FlowerStore.swift */; };
 		9A55532F235D5CD40030F480 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A55532E235D5CD40030F480 /* AppDelegate.swift */; };
 		9A555331235D5CD40030F480 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A555330235D5CD40030F480 /* SceneDelegate.swift */; };
-		9A555333235D5CD40030F480 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A555332235D5CD40030F480 /* ContentView.swift */; };
+		9A555333235D5CD40030F480 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A555332235D5CD40030F480 /* HomeView.swift */; };
 		9A555335235D5CD60030F480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A555334235D5CD60030F480 /* Assets.xcassets */; };
 		9A555338235D5CD60030F480 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A555337235D5CD60030F480 /* Preview Assets.xcassets */; };
 		9A55533B235D5CD60030F480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A555339235D5CD60030F480 /* LaunchScreen.storyboard */; };
 		9A555346235D5CD60030F480 /* FlowerSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A555345235D5CD60030F480 /* FlowerSwiftUITests.swift */; };
 		9A555351235D5CD60030F480 /* FlowerSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A555350235D5CD60030F480 /* FlowerSwiftUIUITests.swift */; };
+		9A555362235D91C30030F480 /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A555361235D91C30030F480 /* Flower.swift */; };
+		9A555365235EA9800030F480 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A555364235EA9800030F480 /* NetworkManager.swift */; };
+		9A555367235EAE0E0030F480 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A555366235EAE0E0030F480 /* Extension.swift */; };
+		9A555369235EAFFB0030F480 /* FlowerListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A555368235EAFFB0030F480 /* FlowerListRepository.swift */; };
+		9A7545D0235EEA5F0083DE58 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 9A7545CF235EEA5F0083DE58 /* KingfisherSwiftUI */; };
+		9A7545D2235EEA5F0083DE58 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9A7545D1235EEA5F0083DE58 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A07D4E2235FD81800750817 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		9A07D4E4235FE56F00750817 /* FlowerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerItem.swift; sourceTree = "<group>"; };
+		9A07D4E6235FE7D100750817 /* FlowerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerDetailView.swift; sourceTree = "<group>"; };
+		9A07D4E9235FF3C400750817 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		9A07D4EB23602CE000750817 /* FlowerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerStore.swift; sourceTree = "<group>"; };
 		9A55532B235D5CD40030F480 /* FlowerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A55532E235D5CD40030F480 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A555330235D5CD40030F480 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9A555332235D5CD40030F480 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9A555332235D5CD40030F480 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9A555334235D5CD60030F480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A555337235D5CD60030F480 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9A55533A235D5CD60030F480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +65,10 @@
 		9A55534C235D5CD60030F480 /* FlowerSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A555350235D5CD60030F480 /* FlowerSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerSwiftUIUITests.swift; sourceTree = "<group>"; };
 		9A555352235D5CD60030F480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A555361235D91C30030F480 /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
+		9A555364235EA9800030F480 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9A555366235EAE0E0030F480 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		9A555368235EAFFB0030F480 /* FlowerListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerListRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A7545D2235EEA5F0083DE58 /* Kingfisher in Frameworks */,
+				9A7545D0235EEA5F0083DE58 /* KingfisherSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A07D4E8235FF3B900750817 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9A07D4E9235FF3C400750817 /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		9A555322235D5CD40030F480 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +129,11 @@
 		9A55532D235D5CD40030F480 /* FlowerSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				9A55532E235D5CD40030F480 /* AppDelegate.swift */,
-				9A555330235D5CD40030F480 /* SceneDelegate.swift */,
-				9A555332235D5CD40030F480 /* ContentView.swift */,
-				9A555334235D5CD60030F480 /* Assets.xcassets */,
-				9A555339235D5CD60030F480 /* LaunchScreen.storyboard */,
-				9A55533C235D5CD60030F480 /* Info.plist */,
+				9A07D4E8235FF3B900750817 /* Helper */,
+				9A555363235EA9710030F480 /* Network */,
+				9A555360235D91B10030F480 /* Model */,
+				9A55535E235D5CE60030F480 /* View */,
+				9A55535F235D5CF40030F480 /* Supporting Files */,
 				9A555336235D5CD60030F480 /* Preview Content */,
 			);
 			path = FlowerSwiftUI;
@@ -136,6 +165,48 @@
 			path = FlowerSwiftUIUITests;
 			sourceTree = "<group>";
 		};
+		9A55535E235D5CE60030F480 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A555332235D5CD40030F480 /* HomeView.swift */,
+				9A07D4E2235FD81800750817 /* CategoryRow.swift */,
+				9A07D4E4235FE56F00750817 /* FlowerItem.swift */,
+				9A07D4E6235FE7D100750817 /* FlowerDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A55535F235D5CF40030F480 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A55532E235D5CD40030F480 /* AppDelegate.swift */,
+				9A555330235D5CD40030F480 /* SceneDelegate.swift */,
+				9A555334235D5CD60030F480 /* Assets.xcassets */,
+				9A555339235D5CD60030F480 /* LaunchScreen.storyboard */,
+				9A55533C235D5CD60030F480 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A555360235D91B10030F480 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A555361235D91C30030F480 /* Flower.swift */,
+				9A07D4EB23602CE000750817 /* FlowerStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9A555363235EA9710030F480 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9A555364235EA9800030F480 /* NetworkManager.swift */,
+				9A555366235EAE0E0030F480 /* Extension.swift */,
+				9A555368235EAFFB0030F480 /* FlowerListRepository.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +223,10 @@
 			dependencies = (
 			);
 			name = FlowerSwiftUI;
+			packageProductDependencies = (
+				9A7545CF235EEA5F0083DE58 /* KingfisherSwiftUI */,
+				9A7545D1235EEA5F0083DE58 /* Kingfisher */,
+			);
 			productName = FlowerSwiftUI;
 			productReference = 9A55532B235D5CD40030F480 /* FlowerSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +299,9 @@
 				Base,
 			);
 			mainGroup = 9A555322235D5CD40030F480;
+			packageReferences = (
+				9A7545CE235EEA5F0083DE58 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 9A55532C235D5CD40030F480 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -267,9 +345,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A07D4EA235FF3C400750817 /* Helper.swift in Sources */,
+				9A07D4E5235FE56F00750817 /* FlowerItem.swift in Sources */,
 				9A55532F235D5CD40030F480 /* AppDelegate.swift in Sources */,
+				9A07D4E7235FE7D100750817 /* FlowerDetailView.swift in Sources */,
+				9A07D4EC23602CE000750817 /* FlowerStore.swift in Sources */,
 				9A555331235D5CD40030F480 /* SceneDelegate.swift in Sources */,
-				9A555333235D5CD40030F480 /* ContentView.swift in Sources */,
+				9A07D4E3235FD81800750817 /* CategoryRow.swift in Sources */,
+				9A555365235EA9800030F480 /* NetworkManager.swift in Sources */,
+				9A555367235EAE0E0030F480 /* Extension.swift in Sources */,
+				9A555362235D91C30030F480 /* Flower.swift in Sources */,
+				9A555333235D5CD40030F480 /* HomeView.swift in Sources */,
+				9A555369235EAFFB0030F480 /* FlowerListRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +524,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FlowerSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FlowerSwiftUI/Info.plist;
+				INFOPLIST_FILE = "FlowerSwiftUI/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +543,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FlowerSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FlowerSwiftUI/Info.plist;
+				INFOPLIST_FILE = "FlowerSwiftUI/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,6 +675,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9A7545CE235EEA5F0083DE58 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9A7545CF235EEA5F0083DE58 /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A7545CE235EEA5F0083DE58 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+		9A7545D1235EEA5F0083DE58 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9A7545CE235EEA5F0083DE58 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9A555323235D5CD40030F480 /* Project object */;
 }
